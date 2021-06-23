@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configuration monitorInterval="4">
+    <Appenders>
+        <Console name="C" target="SYSTEM_OUT"/>
+    </Appenders>
+    <Loggers>
+        <Root level="DEBUG">
+            <AppenderRef ref="C"/>
+        </Root>
+    </Loggers>
+</Configuration>
+
